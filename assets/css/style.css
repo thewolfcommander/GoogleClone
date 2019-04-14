@@ -165,3 +165,82 @@ body {
 	font-weight: bold;
 	color: #1a73e8;
 }
+
+.mainResultsSection {
+	flex: 1;
+	width: 100%;
+}
+
+.mainResultsSection .resultsCount {
+	font-size: 13px;
+	color: #808080;
+	margin-left: 150px;
+}
+
+.mainResultsSection .siteResults {
+	margin-left: 150px;
+}
+
+.resultContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 26px;
+}
+
+.resultContainer .title {
+	margin: 0;
+}
+
+.resultContainer .title a {
+	color: #1a0dab;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.resultContainer .title a:hover {
+	text-decoration: underline;
+}
+
+.resultContainer .url {
+	color: #006621;
+	font-size: 14px;
+}
+
+.resultContainer .description {
+	font-size: 12px;
+}
+
+.paginationContainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.paginationContainer .pageButtons {
+	display: flex;
+
+}
+
+.paginationContainer .pageButtons .pageNumberContainer img {
+	height: 37px;
+}
+
+
+.pageNumberContainer,
+.pageNumberContainer a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	margin: 0 1px;
+}
+
+.pageNumber {
+	color: #000;
+	font-size: 13px;
+}
+
+a .pageNumber {
+	color: #4285f4;
+}
