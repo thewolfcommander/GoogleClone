@@ -5,6 +5,7 @@
 	<title>Dhroove | Search anything here</title>
 
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style_spare.css">
 </head>
 <body>
 	<div class="wrapper indexPage">

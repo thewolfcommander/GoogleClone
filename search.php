@@ -22,6 +22,10 @@ include("classes/SiteResultsProvider.php");
 	<meta charset="UTF-8">
 	<title>You have searched <?php echo $term; ?> | Dhroove - Search Engine for Love</title>
 	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- <link rel="stylesheet" href="assets/css/style_spare.css"> -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/script.js"></script>
 
 </head>
 <body>
@@ -37,6 +41,8 @@ include("classes/SiteResultsProvider.php");
 			 	<div class="searchContainer">
 			 		<form action="search.php" method="GET">
 			 			<div class="searchBarContainer">
+
+			 				<input type="hidden" name="type" value="<?php echo $type; ?>">
 			 				<input type="text" name="term" class="searchBox" value='<?php echo $term; ?>'>
 			 				<button class="searchButton">
 			 					<img src="assets/img/iconSearch.png" alt="iconSearch">

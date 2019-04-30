@@ -1,0 +1,132 @@
+::-webkit-scrollbar {
+  width: 10px;
+  background: #2980b9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+html, body {
+	background: url('1.jpg')!important;
+}
+
+.st-back-standard {
+	background: #2C3E50;
+	background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+	background: linear-gradient(to right, #4CA1AF, #2C3E50); 
+}
+
+.st-back-inverted {
+	background: #2980b9;
+	background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+	background: linear-gradient(to right, #2c3e50, #2980b9);
+}
+
+.st-back-skies {
+	background: #E0EAFC;
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC); 
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+}
+
+.st-font-purple {
+	color: #BA5370;
+}
+
+.st-font-red-ocean {
+	color: #A43931;
+}
+
+.st-font-dark-green {
+	color: #1D4350;
+}
+
+.st-font-tranquil {
+	color: #EECDA3;
+}
+
+.st-font-solid-blue {
+	color: #3a7bd5;
+}
+
+.st-text-shadow-small {
+	text-shadow: 1px ;
+}
+
+.st-navbar-logo {
+	width: 65px;
+	border-radius: 4px;
+}
+
+.st-navbar-logo:hover {
+	box-shadow: 2px 3px 4px rgba(0,0,0,0.16), 1px 2px 3px rgba(0,0,0,0.08);
+	transition: all 0.25s ease-in;
+}
+
+.st-navbar-shadow {
+	box-shadow: 2px 4px 7px rgba(0,0,0,0.36), 3px 4px 6\px rgba(0,0,0,0.18);
+}
+
+
+.st-navbar-button {
+	min-width: 85px;
+	border-radius: 4px;
+	box-shadow: inset 2px 3px 4px rgba(0,0,0,0.16), 1px 2px 3px rgba(0,0,0,0.08);
+	background: #2980b9;
+}
+
+.st-navbar-button:hover {
+	transition: all 0.45s ease-in;
+	box-shadow: 2px 3px 4px rgba(0,0,0,0.16), 1px 2px 3px rgba(0,0,0,0.08);
+	background: #E0EAFC;
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC); 
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+	color: #2980b9!important;
+}
+
+.st-navbar-button a:hover {
+	text-decoration: none;
+	box-shadow: 2px 3px 4px rgba(0,0,0,0.16), 1px 2px 3px rgba(0,0,0,0.08);
+	transition: all 0.15s ease-in;
+}
+
+.st-search-box {
+	border: none;
+	border-radius: 4px;
+	background: aliceblue;
+	color: midnightblue;
+	box-shadow: 1px 2px 4px rgba(0,0,0,0.16), 4px 6px 8px rgba(0,0,0,0.08);
+	width: 250px!important;
+}
+
+.st-search-button {
+	min-width: 85px;
+	border-radius: 4px;
+	box-shadow: inset 2px 3px 4px rgba(0,0,0,0.16), 1px 2px 3px rgba(0,0,0,0.08);
+	background: #2980b9;
+}
+
+.st-search-button:hover {
+	transition: all 0.45s ease-in;
+	box-shadow: 2px 3px 4px rgba(0,0,0,0.16), 1px 2px 3px rgba(0,0,0,0.08);
+	background: #E0EAFC;
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC); 
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+	color: #2980b9!important;
+}
+
+
+
+/* Footer styling starts from here */
+
+.st-footer-main {
+	width: 100%;
+	border-top: 1px solid #d4d9d1;
+	box-shadow: 3px 2px 2px 0 rgba(0,0,0,0.16), 4px 2px 3px 0 rgba(0,0,0,0.08);
+	height: 100px;
+	justify-content: center;
+	padding: 25px 30px;
+}
+
+/* Register page stylesheet */
+
